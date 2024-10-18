@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voice Detector</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="noun-bot-5663074.png">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Voice Detector</h1>
+      <button id="start-btn" class="btn">Start Listening</button>
+    </header>
+    <section class="output-section">
+      <p id="output" class="output-text"></p>
+    </section>
+    <marquee class="welcome-message"><h2>Hi, This is your beginner bot!</h2></marquee>
+    
+    <div class="chat-container">
+      <h2>Message Bot</h2>
+      <div id="chat-box" class="chat-box"></div>
+      <div class="input-container">
+        <input type="text" id="user-input" placeholder="Type your message..." class="input-field">
+        <button id="send-btn" class="btn">Send</button>
+      </div>
+    </div>
+    
+    <div class="assistant-container">
+      <button type="button" class="btn">Assistant Bot</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
